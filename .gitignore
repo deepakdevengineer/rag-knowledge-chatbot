@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.local
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime data
+backend/ragchat.db
+backend/chroma_db/
+backend/data/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated reports
+*.docx
